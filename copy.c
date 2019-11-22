@@ -9,11 +9,11 @@ int main()
    printf("Enter the size of array:");
    scanf("%d", &size);
 
-   printf("\nEnter elements of source array\t");
+   printf("\nEnter elements of source array:\n");
 
    for(i=0; i<size; i++)
    {
-       scanf("%d", &source[i]);
+       scanf("%d\t", &source[i]);
    }
 
    for(i=0; i<size; i++)
@@ -21,17 +21,17 @@ int main()
        dest[i]=source[i];
    }
 
-   printf("\n Elements of source array are:");
+   printf("\n Elements of source array are:     ");
    for(i=0; i<size; i++)
    {
-       printf("%d\t",source[i]);
+       printf("\t%d",source[i]);
    }
 
    printf("\n Elements of destination array are:");
    
    for (i = 0; i < size; i++)
    {
-       printf("%d\t", dest[i]);
+       printf("\t%d", dest[i]);
    }
 
    return 0;

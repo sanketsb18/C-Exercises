@@ -6,11 +6,13 @@ int main()
     int i, j, n;
 
     //Take input for number of rows.
+
     printf("Enter the number of rows:");
     scanf("%d", &n);
 
 
     //iteration loop for n rows
+    
     for(i=1; i<=n; i++)
     {
 

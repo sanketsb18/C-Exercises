@@ -7,8 +7,8 @@ int main()
 
     //Take input of numbers to find LCM.
 
-    printf("Enter any two numbers to find LCM:");
-    scanf("%d%d", &num1, &num2);
+    printf("Enter any two numbers to find LCM:\t");
+    scanf("\t %d %d", &num1, &num2);
 
     // Find maximum between num1 and num2 
     max = (num1 > num2) ? num1 : num2;
