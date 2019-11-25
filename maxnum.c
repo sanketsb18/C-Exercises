@@ -33,10 +33,8 @@ int main()
     printf("Enter three numbers: "); 
     scanf("%d %d %d", &A, &B, &C); 
   
-    largest = A > B ? (A > C ? A : C) : (B > C ? B : C); 
     max = (A > B && A > C) ? A :(B > C) ? B : C;
   
-    printf("%d is the largest number.\n", largest); 
     printf("largest number is %d\n", max);
   
     return 0; 
