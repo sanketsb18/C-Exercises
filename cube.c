@@ -1,3 +1,5 @@
+/*Find the cube of given number.*/
+
 #include<stdio.h>
 
 double cube(double num);
