@@ -1,3 +1,5 @@
+/* Simple Interest */
+
 #include <stdio.h>
  
 int main()

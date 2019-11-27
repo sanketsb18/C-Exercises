@@ -1,3 +1,5 @@
+/*Check whether given alphabet is vowel or consonant*/
+
 #include <stdio.h>
     int
     main()

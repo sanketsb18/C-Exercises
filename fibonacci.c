@@ -1,3 +1,5 @@
+/*Fibonacci series using function.*/
+
 #include<stdio.h>
 
 unsigned long long fibo(int num);
