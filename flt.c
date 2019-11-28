@@ -6,10 +6,10 @@ float num=10.30;
 
 if(num == 10.30)
 {
-    printf("True");
+    printf("True\n");
 }
 else 
-printf("False");
+printf("False\n");
 
 return 0;
 }
