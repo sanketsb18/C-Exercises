@@ -2,12 +2,11 @@
 
 int main()
     {
-        int i;
+        char c;
 
-        /* Print ASCII values from 0 to 255 */
-        for (i = 0; i <= 255; i++)
-        {
-            printf("ASCII value of character %c = %d\n", i, i);
-        }
+        printf("Enter the character:");
+        scanf("%c", &c);
+        printf("ASCII value of character %c = %d\n", c, c);
+    
         return 0;
 }
