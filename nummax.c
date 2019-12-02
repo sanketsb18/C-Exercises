@@ -18,18 +18,18 @@ int main(){
 
         if (a > c) {
 
-            printf("Maximum number is: %d\n", a);
+            printf("Maximum number is a: %d\n", a);
         }
         else {
-            printf("Maximum number is: %d\n", c);
+            printf("Maximum number is c: %d\n", c);
         }
     }
     else {
         if (b > c) {
-            printf("Maximum number is: %d\n", b);
+            printf("Maximum number is b: %d\n", b);
         }
         else {
-            printf("Maximum number is: %d\n", c);
+            printf("Maximum number is c: %d\n", c);
         }
     }
 
