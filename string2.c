@@ -2,10 +2,10 @@
 
 #include<stdio.h>
 #include<string.h>
-#define MAX_SIZE 100
+#define maxsize 100
 
 int main(){
-    char a[MAX_SIZE] , b[MAX_SIZE];
+    char a[maxsize] , b[maxsize];
 
     // Take the input of any strings
 
