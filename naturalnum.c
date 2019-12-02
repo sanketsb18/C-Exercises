@@ -11,7 +11,7 @@ int main (){
 
     printf("Natural numbers from 1 to %d : \n", n);
 
-    /* iteration loop */
+    /* using for iteration loop */
 
     for(i=1; i<=n; i++)
     {
@@ -37,6 +37,24 @@ int main (){
     {
         printf("%d\n", i);
     }
+
+
+
+
+
+    /* using while iteration loop.*/
+
+
+    printf("\nPrint all natural numbers from 1 to : ");
+    scanf("%d", &end);
+
+    i=1;
+    while(i<=end)
+    {
+        printf("%d\n", i);
+        i++;
+    }
+
 
     return 0;
 }
