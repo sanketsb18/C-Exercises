@@ -1,3 +1,5 @@
+/* concatenate strings using strcat function. */
+
 #include<stdio.h>
 #include<string.h>
 #define maxsize 100
