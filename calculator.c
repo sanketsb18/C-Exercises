@@ -1,3 +1,5 @@
+/*Simple calculator using switch case. */
+
 #include<stdio.h>
 
 int main()
