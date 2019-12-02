@@ -1,8 +1,8 @@
 /* Arrays */
 
 #include<stdio.h>
-#define MAX_SIZE 1000
-int arr[MAX_SIZE];
+#define maxsize 1000
+int arr[maxsize];
 int size;
 
 int main()
