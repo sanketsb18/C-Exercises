@@ -1,45 +1,26 @@
+#include<stdio.h>
 
-#include <stdio.h>
-int main()
-{
+int main() {
 
-    //using for loop
+    int lower = 50, upper = 70, sum = 0;
 
-    int i;
-    int sum = 0;
-    for (i = 50; i <= 70; i++)
-    {
-        sum = sum + i;
+    while (lower <= upper) {
+        sum += lower;
+        lower++;
     }
 
-    printf("The sum is %d\n", sum);
+    sum = 0;
+    do {
+        sum += lower;
+        lower++;
+    } while(lower <= upper);
 
-   //using do while loop
-    i = 50;
-
-    do
-    {
-
-        sum = sum + i;
-
-        printf("The sum is %d\n", sum);
-
-        i++;
-
+    sum = 0;
+    for ( lower = 50, upper = 70; lower <= upper; lower++) {
+        sum += lower;
     }
-
-    while (i <= 70);
-
-    //using while loop
-
-    i = 50;
-
-    while (i <= 70)
-    {
-        sum = sum + i;
-        printf("The sum is %d\n", sum);
-        i++; 
-    } */
+    
+    printf("Sum: %d\n", sum);
 
     return 0;
 }
