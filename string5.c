@@ -13,7 +13,7 @@ int main(){
     printf("Enter the string1:");
     scanf("%s", str1);
 
-    // Copy text1 to text2 character by character
+    // Copy text1 to text2 
 
     i=0;
     while(str1[i] != '\0')

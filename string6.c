@@ -1,17 +1,20 @@
 #include<stdio.h>
 #include<string.h>
-#define MAX_SIZE 100
+#define maxsize 100
 
 int main(){
-    char a[MAX_SIZE] , b[MAX_SIZE];
 
-    printf("Enter any string:");
-    scanf("%s",a);
+    char a[maxsize], b[maxsize];
 
-    strcpy(b, a);
+    printf("Enter the sring1:");
+    scanf("%s", a);
 
-    printf("First string = %s\n", a);
-    printf("Second string = %s\n", b);
+    printf("Enter the sring2:");
+    scanf("%s", b);
+
+    strcat(a,b);
+
+    printf("Concatenated string is: %s\n", a);
 
     return 0;
 }

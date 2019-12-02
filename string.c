@@ -4,7 +4,7 @@ int main()
 
 {
     char str1[50];
-    str1 = "Codekul";
+    str1[] = "Codekul";
     printf("%s", str1);
 
 
