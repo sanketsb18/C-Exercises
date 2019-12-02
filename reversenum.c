@@ -25,7 +25,8 @@ printf("\nEnter value of n: ");
     {
         printf("%d\n", n);
         n--;
-    }
+    }    
+    
 
     return 0;
 }
