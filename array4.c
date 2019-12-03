@@ -12,13 +12,12 @@ int main(){
     printf("Enter the array elements:\n");
 
     for (i=0; i<n; i++){
+        
         scanf("%d", &arr[i]);
-    }
-
-    for (i=0; i<n; i++){
 
         sum += arr[i];
     }
+
 
     printf("sum of all array elements : %d\n", sum);
 
