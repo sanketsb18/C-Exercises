@@ -4,7 +4,7 @@
 
 int main(){
     int base, exp;
-    long long result = 1;
+    int result = 1;
 
     printf("Enter a base component: ");
     scanf("%d", &base);
@@ -18,7 +18,7 @@ int main(){
         --exp;
     }
 
-    printf("The answer is : %lld \n", result);
+    printf("The answer is : %d \n", result);
 
     return 0;
 }
