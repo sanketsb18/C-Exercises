@@ -1,10 +1,12 @@
+/* program to merge array elements */
+
 #include<stdio.h>
-#define MAX_SIZE 1000
+#define maxsize 1000
 
 
 int main()
 {
-    int arr1[MAX_SIZE], arr2[MAX_SIZE], mergearray[MAX_SIZE * 2];
+    int arr1[maxsize], arr2[maxsize], mergearray[maxsize * 2];
     int size1, size2, mergesize;
     int index1, index2, mergeindex;
     int i;
