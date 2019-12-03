@@ -1,3 +1,5 @@
+/* program to copy elements of array 1 to array 2 */
+
 #include<stdio.h>
 #define MAX_SIZE 1000
 

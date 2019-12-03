@@ -3,8 +3,7 @@
 #include<stdio.h>
 
 int main(){
-    int base, exp;
-    int result = 1;
+    int base, exp, result =1;
 
     printf("Enter a base component: ");
     scanf("%d", &base);
