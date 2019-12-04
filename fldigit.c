@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 int main (){
-    int n, firstdigit, lastdigit;
+    int n, firstdigit, lastdigit, sum;
     printf("Enter the number:");
     scanf("%d", &n);
 
@@ -24,5 +24,11 @@ int main (){
 
     printf("The first digit of a given number %d is : %d\n", n, firstdigit); 
     
+    /* find the sum of first digit and last digit */
+
+    sum = firstdigit+lastdigit;
+
+    printf("The sum of first digit and last digit is : %d\n", sum);
+
     return 0;
 }
