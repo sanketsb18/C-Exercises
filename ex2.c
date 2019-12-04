@@ -22,7 +22,7 @@ int main (){
 
 
        
-    lastdigit2= n2%10;            // number divided by modulus 10 gives the last digit number.
+    lastdigit2= n2%10;            //  number divided by modulus 10 gives the last digit number.
 
     printf("The last digit of a given number %d is : %d\n", n2, lastdigit2);
 
