@@ -22,32 +22,23 @@ int main(){
 
     printf("\nEnter the location from where you want to Delete an element : ");
     scanf("%d", &p);
-    
-    i=0;
 
-    while(i!=p-1)
-    
-    i++;
 
     /* the position of i in the array will be replaced by the value of its right */
 
-      while(i<n){
+      for(i=p-1; i<size-1; i++){
         arr[i]=arr[i+1];
-        i++;
-    }
-        n--;
-    printf("\nThe new list is : "); 
-    for(i=0;i<n;i++)
-        {
+
+      }
+        
+    n--;
+
+    printf("\nThe new updated array is : "); 
+    for(i=0;i<n;i++){
+
 		   printf("  %d",arr[i]);
 		}  
             printf("\n\n");
-
-    
-    printf("\nResultant array is : ");
-    
-    for (i = 0; i <= n; i++)    
-    printf("\t%d\t", arr[i]);
     
     return 0;
 }
