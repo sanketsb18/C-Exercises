@@ -1,4 +1,4 @@
-/* program in C to delete an element at desired position from an array. */
+/* program to delete an element at desired position from an array. */
 
 
 #include<stdio.h>
