@@ -1,4 +1,4 @@
-+/* program to merge array elements of two arrays. */
+/* program to merge array elements of two arrays. */
 
 #include<stdio.h>
 #define size 100
