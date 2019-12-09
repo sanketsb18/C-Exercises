@@ -29,7 +29,7 @@ int main (){
 
     for(i=0; i<size2; i++){
 
-        printf("Element - %d : ", i);               //Take the elements input from user.
+        printf("Element - %d : ", i);                 //Take the elements input from user.
         scanf("%d", &arr2[i]);
         merge[k] = arr2[i];
         k++;
