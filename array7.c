@@ -1,11 +1,11 @@
-/* C program to sort elements of array in ascending order */
+/* program to sort elements of array in ascending order */
 
 #include <stdio.h>
 #define size 100    //define array size
 
 int main(){
 
-    int arr1[size];
+    int arr[size];
     int n, i, j, tmp;
 
     printf("Input the size of array : ");       //Take the size of array input
@@ -16,18 +16,18 @@ int main(){
     for(i=0;i<n;i++){
 
         printf("element - %d : ",i);        //store elements in the array given by user
-	    scanf("%d",&arr1[i]);
+	    scanf("%d",&arr[i]);
 
     }
 
     for(i=0; i<n; i++){
         for(j=i+1; j<n; j++){
 
-            if(arr1[j] <arr1[i]){
+            if(arr[j] <arr[i]){
 
-                tmp = arr1[i];
-                arr1[i] = arr1[j];      //swap the position of array elements to right position
-                arr1[j] = tmp;
+                tmp = arr[i];
+                arr[i] = arr[j];      //swap the position of array elements to right position
+                arr[j] = tmp;
 
             }             
         
@@ -36,11 +36,11 @@ int main(){
     }
 
          
-    printf("\nElements of array in sorted ascending order:\n");
+    printf("\nElements of an array in sorted ascending order:  ");
 
     for(i=0; i<n; i++){
 
-        printf("%d  ", arr1[i]);
+        printf("%d  ", arr[i]);
 
     }      
     
