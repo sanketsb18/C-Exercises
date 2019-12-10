@@ -15,7 +15,7 @@ int main (){
     printf("\nEnter %d elements of an array 1 :\n\n", n);
 
     for(i=0; i<n; i++){
-       printf("Element - %d : ", i);                    //take the elements of array 1 from user
+       printf("Element - %d : ", i);                    //take the elements of array from user
        scanf("%d", &arr[i]);
     }
 
