@@ -31,7 +31,7 @@ int main (){
 
     }      
     
-	    printf("\n\n");
+	printf("\n\n");
 
     
     for (i = 0; i < n; i++){
@@ -57,7 +57,7 @@ int main (){
 
     }      
     
-	    printf("\n\n");
+	printf("\n\n");
 
     return 0;
 }
