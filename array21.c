@@ -4,7 +4,7 @@
 #define size 100
 
 int main (){
-    int n,i, j=0, five=0, seven=0; 
+    int n, i, five=0, seven=0; 
     int arr[size];
 
     printf("Enter the size of array : ");       //Take the input from user for size of array
