@@ -38,13 +38,10 @@ int main (){
 
         if(arr[i] % 2 == 0){
 
-            if(i!=j){
-
-                temp = arr[j];
-                arr[j] = arr[i];        //shift all even numbers to left using loop.
-                arr[i] = temp;
-            }
-
+            temp = arr[j];
+            arr[j] = arr[i];        //shift all even numbers to left using loop.
+            arr[i] = temp;
+            
             j++;
 
         }
