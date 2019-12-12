@@ -27,8 +27,11 @@ int main(){
     
     /* take input to check temperature of respective day and city. */
     
-    printf("Enter the city and day to check temparature :");
-    scanf("%d%d", &m, &n);
+    printf("Enter the city to check temparature :");
+    scanf("%d", &m);
+
+    printf("Enter the day to check temparature :");
+    scanf("%d", &n);
 
     printf("The temperature of city %d on day %d is : %d\n", m, n, temperature[m][n]);
     
