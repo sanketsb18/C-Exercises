@@ -27,8 +27,8 @@ int main (){
     }
 
     else if (x == y) {
-        printf("Both numbers are away from 100 with same distance. \n");
+        return 0;
     }
 
-    return 0;
+    
 }
