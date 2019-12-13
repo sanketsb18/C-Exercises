@@ -1,4 +1,4 @@
-/**
+/*
  * C program to demonstrate use of pointers
  */
 
