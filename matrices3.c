@@ -10,22 +10,24 @@ int main(){
     int diff[size][size];
 
     int r,c,i,j;
-
+    /* take number of rows and columns from user */
     printf("Enter the number of rows (between 1 and 100): ");
     scanf("%d", &r);
     printf("Enter the number of columns (between 1 and 100): ");
     scanf("%d", &c);
-    printf("\nEnter elements of 1st matrix:\n");
+
+    /* take elements of matrices from user. */
+    printf("\nEnter elements of 1st matrix :\n");
     for (i = 0; i < r; i++){
         for (j = 0; j < c; j++){
-            printf("Enter element a%d%d: ", i + 1, j + 1);
+            printf("Enter element a%d%d : ", i + 1, j + 1);
             scanf("%d", &a[i][j]);
         }
     }
-    printf("Enter elements of 2nd matrix:\n");
+    printf("Enter elements of 2nd matrix :\n");
     for (i = 0; i < r; i++){
         for (j = 0; j < c; j++){
-            printf("Enter element a%d%d: ", i + 1, j + 1);
+            printf("Enter element b%d%d : ", i + 1, j + 1);
             scanf("%d", &b[i][j]);
         }
     }
