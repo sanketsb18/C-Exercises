@@ -1,4 +1,4 @@
-//Sum of number in a given range using recursion.
+/* Sum of number in a given range using recursion. */
 
 #include<stdio.h>
 
