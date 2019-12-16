@@ -1,3 +1,5 @@
+/* program to check whether the number is a prime number or not. */
+
 #include<stdio.h>   //header files
 #include<math.h>     // header files which have various mathematical functions.
 
