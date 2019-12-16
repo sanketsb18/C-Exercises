@@ -1,3 +1,5 @@
+/* program to find maximum number between two numbers using function. */
+
 #include<stdio.h>
 
 void max(int x, int y)
