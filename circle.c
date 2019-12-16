@@ -1,3 +1,5 @@
+/* program to calculate the diameter, circumference and area of circle using functions. */
+
 #include<stdio.h>
 #include<math.h>
 
