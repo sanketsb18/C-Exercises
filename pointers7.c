@@ -17,11 +17,10 @@ int main()
     ptr = alph;
 
 printf(" The Alphabets are : \n");
-    for(x=0;x<26;x++)
-    {
-       printf(" %c ", *ptr);
+    for(x=0;x<26;x++){
+        printf(" %c ", *ptr);
         ptr++;
     }
     printf("\n\n");
-    return(0);
+    return 0;
 }
