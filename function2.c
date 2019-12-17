@@ -3,7 +3,7 @@
 #include<stdio.h>   //header files
 #include<math.h>     // header files which have various mathematical functions.
 
-int Prime(int num);
+int Prime(int num); //Function declaration/function prototype
 
 int main()
 
@@ -13,7 +13,7 @@ int main()
     printf("Enter the number:");
     scanf("%d", &num);
 
-    if(Prime(num))
+    if(Prime(num))      //function call
     {
     printf("%d is the prime number.\n", num);
     }
@@ -26,6 +26,8 @@ int main()
         return 0;
 }
 
+
+/* function defination */
 
 int Prime(int num)
 {
