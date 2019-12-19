@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int sumofdigits();
+int sumofdigits();      //function declaration
 
 int main(){
     int num, sum;
@@ -10,18 +10,16 @@ int main(){
     printf("Enter the number to find the sum of digits :");
     scanf("%d", &num);
 
-    sum = sumofdigits(num);
+    sum = sumofdigits(num);     //function call
 
     printf("The sum of digits of a number %d is : %d\n", num, sum);
 
     return 0;
 }
 
-/*
- * Recursive function to find sum of digits of a number
- */
-int sumofdigits(int num){
-    // Base condition
+/* Recursive function to find sum of digits of a number */
+int sumofdigits(int num){       //function definition
+
     if(num == 0)
         return 0;
         
