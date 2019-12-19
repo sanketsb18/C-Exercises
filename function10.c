@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int fact(int);
+int fact(int x);
 int main()
 {
     int sum;
