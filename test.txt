@@ -1,0 +1,4 @@
+knk
+Name    = kkll
+Age     = 66
+Salary  = 5116.00
