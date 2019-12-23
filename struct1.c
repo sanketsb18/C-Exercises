@@ -11,8 +11,6 @@
   };
   
 int main(void) {
-
-  int i, n;
   
   // creating a student structure variable
   struct student std1;
