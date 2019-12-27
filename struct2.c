@@ -1,50 +1,56 @@
-/* Struct Examples using array. */
+/* program in C to take details of 3 students as input and
+ display the result by passing the structure to a function */
 
 #include <stdio.h>
-#define size 100
 
 // creating a student structure template
-   struct student {
-    char firstname[64];
-    char lastname[64];
-    char id[64];
-    int score;
-  };
+struct student {
+  char firstname[64];
+  char lastname[64];
+  char id[64];
+  int score;
+};
   
+// function declaration
+void displayDetail(struct student std);
+
 int main(void) {
+  
+  // creating a student structure array variable
+  struct student stdArr[3];
+  
+  // other variables
+  int i;
+  
+  // taking user input
+  for (i = 0; i < 3; i++) {
+    printf("Enter detail of student #%d\n", (i+1));
 
-    int i, n;
+    printf("Enter First Name: ");
+    scanf("%s", stdArr[i].firstname);
   
-  // creating a student structure variable
-  struct student stdarr[size];
-
-  printf("Enter the number of students :");
-  scanf("%d", &n);
+    printf("Enter Last Name: ");
+    scanf("%s", stdArr[i].lastname);
   
-  for(i=0; i<n; i++){
+    printf("Enter ID: ");
+    scanf("%s", stdArr[i].id);
   
-    // taking user input
-  printf("Enter First Name: ");
-  scanf("%s", stdarr[i].firstname);
-  
-  printf("Enter Last Name: ");
-  scanf("%s", stdarr[i].lastname);
-  
-  printf("Enter ID: ");
-  scanf("%s", stdarr[i].id);
-  
-  printf("Enter Score: ");
-  scanf("%d", &stdarr[i].score);
-
-  printf("\n");
+    printf("Enter Score: ");
+    scanf("%d", &stdArr[i].score);
   }
   
-  for(i=0; i<n; i++){
-  printf("\nStudent Details:\n");
-  printf("Firstname: %s\n", stdarr[i].firstname);
-  printf("Lastname: %s\n", stdarr[i].lastname);
-  printf("ID: %s\n", stdarr[i].id);
-  printf("Score: %d\n", stdarr[i].score);
+  // output
+  for (i = 0; i < 3; i++) {
+    printf("\nStudent #%d Detail:\n", (i+1));
+    displayDetail(stdArr[i]);
   }
+  
   return 0;
+}
+
+void displayDetail(struct student std) {
+  printf("Firstname: %s\n", std.firstname);
+  printf("Lastname: %s\n", std.lastname);
+  printf("ID: %s\n", std.id);
+  printf("Score: %d\n", std.score);
 }
