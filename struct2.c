@@ -1,56 +1,34 @@
-/* program in C to take details of 3 students as input and
- display the result by passing the structure to a function */
-
+/* Program to add two distances (feet-inch) */
 #include <stdio.h>
+struct Distance
+{
+    int feet;
+    float inch;
+} dist1, dist2, sum;
 
-// creating a student structure template
-struct student {
-  char firstname[64];
-  char lastname[64];
-  char id[64];
-  int score;
-};
-  
-// function declaration
-void displayDetail(struct student std);
+int main (){
+    printf("1st distance : \n");
+    printf("Enter feet : ");
+    scanf("%d", &dist1.feet);
+    printf("Enter inch : ");
+    scanf("%f", &dist1.inch);
 
-int main(void) {
-  
-  // creating a student structure array variable
-  struct student stdArr[3];
-  
-  // other variables
-  int i;
-  
-  // taking user input
-  for (i = 0; i < 3; i++) {
-    printf("Enter detail of student #%d\n", (i+1));
+    printf("2nd distance : \n");
+    printf("Enter feet : ");
+    scanf("%d", &dist2.feet);
+    printf("Enter inch : ");
+    scanf("%f", &dist2.inch);
 
-    printf("Enter First Name: ");
-    scanf("%s", stdArr[i].firstname);
-  
-    printf("Enter Last Name: ");
-    scanf("%s", stdArr[i].lastname);
-  
-    printf("Enter ID: ");
-    scanf("%s", stdArr[i].id);
-  
-    printf("Enter Score: ");
-    scanf("%d", &stdArr[i].score);
-  }
-  
-  // output
-  for (i = 0; i < 3; i++) {
-    printf("\nStudent #%d Detail:\n", (i+1));
-    displayDetail(stdArr[i]);
-  }
-  
-  return 0;
-}
+    sum.feet = dist1.feet + dist2.feet;     //adding distance 1 and distance 2 feet
+    sum.inch = dist1.inch + dist2.inch;     //adding distance 1 and distance 2 inch
 
-void displayDetail(struct student std) {
-  printf("Firstname: %s\n", std.firstname);
-  printf("Lastname: %s\n", std.lastname);
-  printf("ID: %s\n", std.id);
-  printf("Score: %d\n", std.score);
+    // changing to feet if inch is greater than 12
+    while (sum.inch >= 12) 
+    {
+        ++sum.feet;
+        sum.inch = sum.inch - 12;
+    }
+    printf("Sum of distances = %d\'-%.1f\n", sum.feet, sum.inch);
+
+    return 0;
 }
