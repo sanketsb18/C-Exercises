@@ -12,8 +12,6 @@
         char str[MAX],fname[MAX];        
         char newln[MAX], temp[] = "temp.txt";
 		
-		printf("\n\n Replace a specific line in a text file with a new text :\n");
-		printf("-------------------------------------------------------------\n"); 
 		printf(" Input the file name to be opened : ");
         fgets(fname, MAX, stdin);
         fname[strlen(fname) - 1] = '\0';
@@ -33,10 +31,12 @@
         /* get the new line from the user */
         printf(" Input the content of the new line : ");
         fgets(newln, MAX, stdin);
+
         /* get the line number to delete the specific line */
         printf(" Input the line no you want to replace : ");
         scanf("%d", &lno);
         lno++;
+
          // copy all contents to the temporary file other except specific line
         while (!feof(fptr1)) 
         {
@@ -59,6 +59,8 @@
         fclose(fptr2);
         remove(fname);
         rename(temp, fname);
+
         printf(" Replacement did successfully..!! \n");
+        
         return 0;
   }
