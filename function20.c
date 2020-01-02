@@ -5,9 +5,9 @@
 
 /* declaration of functions */
 
-double getDiameter(double radius);         //function to find diameter
-double getCircumference(double radius);    //function to find circumference
-double getArea(double radius);             //function to find radius
+double findDiameter(double radius);         //function to find diameter
+double findCircumference(double radius);    //function to find circumference
+double findArea(double radius);             //function to find radius
 
 int main(){
 
@@ -15,9 +15,9 @@ int main(){
     printf("Enter the radius:");
     scanf("%f", &radius);
 
-    D = getDiameter(radius);            
-    C = getCircumference(radius);           //function call
-    A = getArea(radius);
+    D = findDiameter(radius);                  //call findDiameter function          
+    C = findCircumference(radius);             //call findCircumference function
+    A = findArea(radius);                      //call findArea function
 
     printf("Diameter of the circle: %.2f units\n", D);
     printf("Circumference of the circle: %.2f units\n", C);
@@ -28,14 +28,14 @@ int main(){
 
 /* function definitions */
 
-double getDiameter(double radius){
+double findDiameter(double radius){
     return(2*radius);
 }
 
-double getCircumference(double radius){
+double findCircumference(double radius){
     return(2*M_PI*radius);
 }
 
-double getArea(double radius){
+double findArea(double radius){
     return(M_PI*radius*radius);
 }
