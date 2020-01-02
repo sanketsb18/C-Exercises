@@ -15,8 +15,8 @@ int main(){
     printf("Enter the radius:");
     scanf("%f", &radius);
 
-    D = getDiameter(radius);
-    C = getCircumference(radius);
+    D = getDiameter(radius);            
+    C = getCircumference(radius);           //function call
     A = getArea(radius);
 
     printf("Diameter of the circle: %.2f units\n", D);
@@ -26,6 +26,7 @@ int main(){
     return 0;
 }
 
+/* function definitions */
 
 double getDiameter(double radius){
     return(2*radius);
