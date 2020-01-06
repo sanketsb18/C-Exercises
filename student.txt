@@ -1,0 +1,15 @@
+
+Name: snehal 
+Marks=50 
+
+Name: ankita 
+Marks=90 
+
+Name: pinka 
+Marks=60 
+
+Name: rasika 
+Marks=80 
+
+Name: manali 
+Marks=70 
