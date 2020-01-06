@@ -1,3 +1,5 @@
+/* program to count the number of words, lines and characters in a FILE. */
+
 #include <stdio.h>
 
 int main(){
