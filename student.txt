@@ -1,15 +1,15 @@
 
-Name: snehal 
-Marks=50 
-
-Name: ankita 
+Name: shahu 
 Marks=90 
 
-Name: pinka 
-Marks=60 
+Name: ratan 
+Marks=50 
 
-Name: rasika 
-Marks=80 
+Name: uttam 
+Marks=30 
 
-Name: manali 
+Name: rahul 
 Marks=70 
+
+Name: sujit 
+Marks=95 
