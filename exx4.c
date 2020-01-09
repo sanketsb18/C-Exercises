@@ -18,7 +18,7 @@ int main(){
    scanf("%s", filename);
   
     // Open file in read-only mode
-      fp = fopen(filename,"w+");
+      fp = fopen(filename,"r");
 
    // If file opened successfully, then write the string to file
    if ( fp ){
