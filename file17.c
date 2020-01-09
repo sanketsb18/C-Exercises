@@ -5,7 +5,7 @@ int main(){
     FILE *fp1, *fp2;
     char filename[40];
     char c;
-    int del_line, temp = 1;
+    int del_line, temp = 0;
 
     //asks user for file name
     printf("Enter file name: ");

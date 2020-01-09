@@ -41,7 +41,7 @@ int main(){
      * Read line from source file and write to destination 
      * file after removing given word.
      */
-    while ((fgets(buffer, BUFFER_SIZE, fp)) != NULL)
+    while ((fgets(buffer, BUFSIZ, fp)) != NULL)
     {
         // Remove all occurrence of word from current line
         removeAll(buffer, toRemove);
