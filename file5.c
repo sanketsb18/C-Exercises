@@ -1,3 +1,5 @@
+/* Program to create binary file.using structures and FILE handling */
+
 #include<stdio.h>
 #include<stdlib.h>
 

@@ -1,13 +1,11 @@
-/* Program to remove or delete a file. */
+/* Program to remove or delete a file using remove function. */
 
 #include<stdio.h>
 
 int main (){
     int status;
 	char fname[20];
-
-	printf("\n\n Remove a file from the disk :\n");
-	printf("----------------------------------\n"); 	
+	
 	printf(" Input the name of file to delete : ");
 	scanf("%s",fname);
 

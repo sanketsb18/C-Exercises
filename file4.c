@@ -27,8 +27,8 @@ int main()
     scanf("%s", destPath);
 
     /* 
-     * Open source file in 'r' and 
-     * destination file in 'w' mode 
+     * Open source file in read and 
+     * destination file in write mode 
      */
     sourceFile  = fopen(sourcePath, "r");
     destFile    = fopen(destPath,   "w");

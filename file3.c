@@ -18,11 +18,11 @@ int main()
     printf("Enter source file path: ");
     scanf("%s", path);
 
-    /* Open source files in 'r' mode */
+    /* Open files in read mode */
     file = fopen(path, "r");
 
 
-    /* Check if file opened successfully */
+    /* Check if file opened successfully,else return NULL and exit */
     if (file == NULL)
     {
         printf("\nUnable to open file.\n");
@@ -31,9 +31,7 @@ int main()
         exit(EXIT_FAILURE);
     }
 
-    /*
-     * Logic to count characters, words and lines.
-     */
+    /* count characters, words and lines. */
     characters = words = lines = 0;
     while ((ch = fgetc(file)) != EOF)
     {
@@ -55,7 +53,6 @@ int main()
         lines++;
     }
 
-    /* Print file statistics */
     printf("\n");
     printf("Total characters = %d\n", characters);
     printf("Total words      = %d\n", words);
