@@ -1,6 +1,6 @@
-Computer is a dumb machine with expeditious computational speed. 
-It can give quick results to many of the complex scientific calculations but it canâ€™t perform a task on its own. 
+omputer is a dumb machine with expeditious computational speed. 
 A computer needs set of instructions to do some task. 
 This set of instructions is contained in a computer program. 
 Computer program is basically in binary language i.e. series of 0s and 1s. 
 A large bunch of programs makes the computer functional without which the computer would be like a paralyzed machine.
+ÿ
